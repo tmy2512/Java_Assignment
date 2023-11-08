@@ -9,5 +9,6 @@ public class Program {
         System.out.println("Thong tin cua phong ban 1:\n "+department1.getId() +"\n"+ department1.getName());
 //        System.out.println("Ma phong ban 1 la: "+department1.getId()+", Ten phong ban: "+department1.getName());
         System.out.println("Ma phong ban 2 la: "+department2.getId()+", Ten phong ban: "+department2.getName());
+    // tra my ne
     }
 }
