@@ -37,4 +37,13 @@ public class Library {
     public void setLaunchedQuantity(int launchedQuantity) {
         this.launchedQuantity = launchedQuantity;
     }
+
+    @Override
+    public String toString() {
+        return
+                "code='" + code + '\'' +
+                ", namePublisher='" + namePublisher + '\'' +
+                ", launchedQuantity=" + launchedQuantity +
+                '}';
+    }
 }

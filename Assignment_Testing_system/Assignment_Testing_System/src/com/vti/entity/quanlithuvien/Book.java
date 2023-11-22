@@ -6,8 +6,8 @@ public class Book extends Library{
 
 
 
-    public Book(String code, String namePublisher, int numberLaunch, String author, int pageNumber) {
-        super(code, namePublisher, numberLaunch);
+    public Book(String code, String namePublisher, int launchedQuantity, String author, int pageNumber) {
+        super(code, namePublisher, launchedQuantity);
         this.author = author;
         this.pageNumber = pageNumber;
     }
@@ -26,5 +26,13 @@ public class Book extends Library{
 
     public void setPageNumber(int pageNumber) {
         this.pageNumber = pageNumber;
+    }
+
+    @Override
+    public String toString() {
+        return "Book{" + super.toString()+
+                ", author='" + author + '\'' +
+                ", pageNumber=" + pageNumber +
+                '}';
     }
 }

@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class Enum_EducationLevel {
+public enum Enum_EducationLevel {
+    DAIHOC("Đại học"), CAODANG("Cao đẳng");
+
+    Enum_EducationLevel(String s) {
+    }
 }

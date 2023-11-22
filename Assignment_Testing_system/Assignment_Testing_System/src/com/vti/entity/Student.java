@@ -1,11 +1,13 @@
 package com.vti.entity;
 
-public class Student {
+public abstract class Student {
     private int id;
     private String name;
     private String homeTown;
     private float mark;
     public Student() {}
+
+    public abstract void choi();
 
     public Student( String name, String homeTown) {
         this.name = name;

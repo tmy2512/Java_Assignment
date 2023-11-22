@@ -25,4 +25,12 @@ public class Magazine extends Library{
     public void setLaunchedmonth(int launchedmonth) {
         this.launchedmonth = launchedmonth;
     }
+
+    @Override
+    public String toString() {
+        return "Magazine{" + super.toString()+
+                ", launchNumber='" + launchNumber + '\'' +
+                ", launchedmonth=" + launchedmonth +
+                '}';
+    }
 }

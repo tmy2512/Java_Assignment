@@ -17,4 +17,11 @@ public class Newspaper extends Library{
     public void setLaunchedDate(Date launchedDate) {
         this.launchedDate = launchedDate;
     }
+
+    @Override
+    public String toString() {
+        return "Newspaper{" + super.toString()+
+                ", launchedDate=" + launchedDate +
+                '}';
+    }
 }
