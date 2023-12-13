@@ -1,0 +1,15 @@
+create database examfinal;
+
+create table User(
+id INT auto_increment primary key,
+fullName varchar(30),
+email varchar(30),
+passWordU varchar(30),
+expInYear INT,
+projectId int,
+proSkill varchar(30),
+roleU varchar(30)
+);
+insert into user values
+(1, 'Hoa', 'hoa@gmail.com', 'Hoa123456', null, 1, null, 'employee'),
+(2, 'An', 'an@gmail.com', 'An123456', null, 1, null, 'manager')
